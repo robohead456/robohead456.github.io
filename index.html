@@ -2,4 +2,16 @@
 layout: default
 ---
 
-Hello World
+<div class="blog-index">
+    {% for post in site.posts %}
+        <h3><a href="#{{ post.title }}">{{ post.title }}</a></h3>
+        <p><strong>{{ post.date | date: '%B %d, %Y'}}</strong>
+    {% endfor %}
+    <hr>
+    {% for post in site.posts %}
+        {% assign post = post %}
+        {% assign content = post.content %}
+        {% include post_detail.html %}
+        <hr>
+    {% endfor %}
+</div>
