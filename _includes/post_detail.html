@@ -1,0 +1,16 @@
+<h1 class="entry-title">
+{% if page.title %}
+    <a NAME="{{ page.title }}" href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
+{% elsif post.title %}
+    <a NAME="{{ post.title }}" href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+</h1>
+<br>
+<h3 class="entry-title">
+{% if post.date %}
+    {{ post.date | date: '%B %d, %Y'}}
+{% elsif page.date %}
+    {{ post.date | date: '%B %d, %Y'}}
+{% endif %}
+</h3>
+<div class="entry-content">{{ content }}</div>
