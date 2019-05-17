@@ -93,27 +93,5 @@ Writing this class gave me a greater understanding of transformation matricies a
 The source code can be found at: <br>
 [https://github.com/robohead456/symbolic-kinematics](https://github.com/robohead456/symbolic-kinematics)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<hr>

@@ -61,3 +61,6 @@ The hardware source files can be found at: <br>
 
 The library for the Nucleo board can be found at: <br>
 [https://github.com/MPRlab/nss-library](https://github.com/MPRlab/nss-library)
+
+<br>
+<hr>
