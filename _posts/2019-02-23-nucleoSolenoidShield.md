@@ -46,13 +46,13 @@ Once the PCBs and components were ordered I began by soldering everything requir
 
 ![Single Solenoid Test](/assets/NSS_test.gif)
 
-After the test two full boards were hand soldered.
+After the test, two full boards were assembled.
 
 ![Completed Boards](/assets/NSS_finished.jpg)
 
 <hr>
 
-Now that the hardware for this board has been completed example code must be written and the hardware must be tested to ensure that it functions perfectly.
+Now that the hardware for this board has been completed, example code must be written and the hardware must be tested to ensure that it functions perfectly.
 
 Once everything is confirmed to be working, two additional versions of this board can be made, each utilizing different sets of signal pins from the nucleo. This will allow the three versions of the shield to be stacked onto one nucleo, giving control of up to 75 solenoids! I am looking forward to testing and using this board in future projects.
 
